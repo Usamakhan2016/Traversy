@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Cheat Sheet</title>
-</head>
-<body>
+  </head>
+
+  <body>
+
+    <a href="blog.html">Go to blog</a>
     <!-- Traversy Course -->
     <h1>Heading One</h1>
     <h2>Heading Two</h2>
@@ -16,62 +19,140 @@
 
     <!-- Paragraph -->
     <p>
-        Lorem ipsum dolor sit amet <strong> adipisicing elit. Labore accusantium</strong> excepturi saepe quisquam corrupti ea cumque neque! Perspiciatis exercitationem et <em>architecto incidunt corporis,</em> non debitis reprehenderit culpa. Sunt, deserunt enim?
+      Lorem ipsum dolor sit amet
+      <strong> adipisicing elit. Labore accusantium</strong> excepturi saepe
+      quisquam corrupti ea cumque neque! Perspiciatis exercitationem et
+      <em>architecto incidunt corporis,</em> non debitis reprehenderit culpa.
+      Sunt, deserunt enim?
     </p>
     <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. <a href="http://google.com" target="_blank"> Odit sunt, quod rem</a> esse doloremque, quo at asperiores, totam illo vero eos excepturi aspernatur! Fuga inventore impedit temporibus deserunt animi porro?
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      <a href="http://google.com" target="_blank"> Odit sunt, quod rem</a> esse
+      doloremque, quo at asperiores, totam illo vero eos excepturi aspernatur!
+      Fuga inventore impedit temporibus deserunt animi porro?
     </p>
 
     <!-- List -->
     <ul>
-    <li>List Item 1</li>
-    <li>List Item 2</li>
-    <li>List Item 3</li>
-    <li>List Item 4</li>
+      <li>List Item 1</li>
+      <li>List Item 2</li>
+      <li>List Item 3</li>
+      <li>List Item 4</li>
     </ul>
 
     <ol>
-        <li>List Item 1</li>
-        <li>List Item 2</li>
-        <li>List Item 3</li>
-        <li>List Item 4</li>
-        </ol>
-    
-        <!-- Table -->
+      <li>List Item 1</li>
+      <li>List Item 2</li>
+      <li>List Item 3</li>
+      <li>List Item 4</li>
+    </ol>
 
-        <table>
-            <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Age</th>
-                  </tr>  
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Usama Sakhawat</td>
-                    <td>usama@gmail.com</td>
-                    <td>30</td>
+    <!-- Table -->
 
-                </tr>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Usama Sakhawat</td>
+          <td>EngrMuhammadusama@gmail.com</td>
+          <td>30</td>
+        </tr>
 
-                <tr>
-                    <td>Sadia Usama</td>
-                    <td>sadiausama@gmail.com</td>
-                    <td>25</td>
-                </tr>
-                <tr>
-                    <td>Fatima tu Zahra</td>
-                    <td>Fatima@gmail.com</td>
-                    <td>0.1</td>
-                </tr>
+        <tr>
+          <td>Sadia Usama</td>
+          <td>sadiausama@gmail.com</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Fatima tu Zahra</td>
+          <td>EngrFatimaTuZahra@gmail.com</td>
+          <td>0.1</td>
+        </tr>
+      </tbody>
+    </table>
 
-            </tbody>
-        </table>
+    <br />
+    <hr />
+    <br />
+    <!-- form -->
+    <form action="process.php" method="post">
+      <div>
+        <label for="">First Name</label>
+        <input type="text" name="firstName" placeholder="Enter First Name" />
+      </div>
+      <br />
+      <div>
+        <label for="">Last Name</label>
+        <input type="text" name="lastName" />
+      </div>
 
-        <div style="margin-top: 500px">
+      <br />
 
-        </div>
+      <div>
+        <label for="">Email</label>
+        <input type="email" name="email" />
+      </div>
+      <br />
+      <div>
+        <label for="">Message</label>
+        <textarea name="message" id="" cols="30" rows="10"></textarea>
+      </div>
+      <br />
 
-</body>
+      <div>
+        <label for="">Gender</label>
+        <select name="gender" id="">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <br />
+      <div>
+        <label for="">Age:</label>
+        <input type="number" name="age" value="30" id="" />
+      </div>
+      <br />
+      <div>
+        <label for="">Birthday:</label>
+        <input type="date" name="birthday" id="" />
+      </div>
+      <br />
+      <input type="submit" name="submit" value="Submit" />
+    </form>
+
+    <!-- button -->
+    <button>Click Me</button>
+
+    <!-- Image -->
+    <br />
+    <a href="/Background/3.jpg">
+      <img
+        src="/Background/3.jpg"
+        height="300px"
+        width="300px"
+        alt="Sample Image"
+      />
+    </a>
+
+    <br>
+    <!-- Quoatations -->
+    <blockquote cite="">
+        A Goal without plan is just a wish. 
+    </blockquote>
+
+    <p>
+        The <abbr title="World Wide Web">WWW</abbr> is awesome
+    </p>
+
+    <p><cite>HTML Course by Traversy</cite></p>
+    <div style="margin-top: 500px"></div>
+  </body>
 </html>
